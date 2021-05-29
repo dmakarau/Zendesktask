@@ -14,6 +14,7 @@ The tests are written in BDD style. In folder `src/test/resources/features` ther
 - Inside the package I added the chromedriver, which is compatible with the chrome 90. Make sure the chrome 90 is installed or download and place the appropriate driver for
 the browser in the `src/test/resources/webdrivers`. If running tests on mac after downloading the new webdriver - it is required to run:
  `xattr -d com.apple.quarantine <name-of-executable>`once before the first test run.
+- make chromedriver executable `chmod +x chromedriver`
  P.S. I know it would be better and earsier to use WebdriverManger to handle webdriver, but I had no time to implement it.
 
 # Run the tests
